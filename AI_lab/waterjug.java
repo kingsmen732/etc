@@ -100,7 +100,7 @@ class WaterJugSolver {
     }
 }
 
-public class Main {
+public class WaterJugMain {
     public static void main(String[] args) {
         WaterJugSolver solver = new WaterJugSolver(5, 3, 4);
         solver.solve();
