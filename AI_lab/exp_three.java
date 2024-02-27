@@ -9,8 +9,7 @@ public class Built {
         Random random = new Random();
         
         String guesses[] = {
-                            "reddit", "facebook", "java", "assignment",
-                            "game", "hello", "islam", "religion", "internet", "face"};
+                            "world"};
         
         boolean weArePlaying = true;
         while(weArePlaying){
@@ -83,4 +82,3 @@ public class Built {
         return condition;
     }
 }
-  
