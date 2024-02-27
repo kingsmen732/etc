@@ -1,11 +1,11 @@
 import java.util.*;
 
-class waterjug {
+class WaterJugSolver {
     private int jug1Capacity;
     private int jug2Capacity;
     private int targetAmount;
 
-    public WaterJugSolver(int 4, int jug2Capacity, int targetAmount) {
+    public WaterJugSolver(int jug1Capacity, int jug2Capacity, int targetAmount) {
         this.jug1Capacity = jug1Capacity;
         this.jug2Capacity = jug2Capacity;
         this.targetAmount = targetAmount;
@@ -102,7 +102,7 @@ class waterjug {
 
 public class WaterJugMain {
     public static void main(String[] args) {
-        WaterJugSolver solver = new WaterJugSolver(5, 3, 4);
+        WaterJugSolver solver = new WaterJugSolver(4, 6, 4);
         solver.solve();
     }
 }

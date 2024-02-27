@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class exp_three {
+public class Hangman {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -11,7 +11,7 @@ public class exp_three {
         
         boolean weArePlaying = true;
         while(weArePlaying){
-            System.out.println("Lets Start Playing Hangman ver 0.1");
+            System.out.println("game begins");
             int randomNumber = random.nextInt(guesses.length); 
             char randomWordToGuess[] = guesses[randomNumber].toCharArray();
             int ammountOfGuesses = randomWordToGuess.length; 
