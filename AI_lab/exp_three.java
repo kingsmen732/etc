@@ -8,20 +8,17 @@ public class Built {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         
-        String guesses[] = {
-                            "world"};
+        String guesses[] = {"world"};
         
         boolean weArePlaying = true;
         while(weArePlaying){
             System.out.println("Lets Start Playing Hangman ver 0.1");
-            int randomNumber = random.nextInt(guesses.length); //random.nextInt(10);
-            char randomWordToGuess[] = guesses[randomNumber].toCharArray(); // java -> j,a,v,a
-            int ammountOfGuesses = randomWordToGuess.length; //total tries to guess a word.
+            int randomNumber = random.nextInt(guesses.length); 
+            char randomWordToGuess[] = guesses[randomNumber].toCharArray();
+            int ammountOfGuesses = randomWordToGuess.length; 
             char playerGuess[] = new char[ammountOfGuesses]; // "_ _ _ _ _ _ _ _"
             
-            for(int i=0; i<playerGuess.length; i++){ // Assign empty dashes at start "_ _ _ _ _ _ _ _"
-                playerGuess[i] =  '_';
-            } 
+            for(int i=0; i<playerGuess.length; i++){ playerGuess[i] =  '_';} 
             
             boolean wordIsGuessed = false;
             int tries = 0;
@@ -66,9 +63,7 @@ public class Built {
     }
     
     public static void print(char array[]){
-        for(int i=0; i<array.length; i++){ // Assign empty dashes at start "_ _ _ _ _ _ _ _"
-            System.out.print(array[i] + " ");
-        } 
+        for(int i=0; i<array.length; i++){System.out.print(array[i] + " ");} 
         System.out.println();
     }
     
