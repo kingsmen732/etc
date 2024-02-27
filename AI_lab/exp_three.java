@@ -1,9 +1,8 @@
-package Hangman;
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class Built {
+public class exp_three {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
