@@ -133,7 +133,7 @@ def findBestMove(board) :
 	return bestMove 
 board = [ 
 	[ 'x', 'o', 'x' ], 
-	[ 'o', 'o', 'x' ], 
+	[ 'o', 'o', '_' ], 
 	[ '_', '_', '_' ] 
 ] 
 
