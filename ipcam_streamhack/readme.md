@@ -13,7 +13,7 @@ The `rtsp_scanner.py` script exposes vulnerabilities in devices with poorly secu
 
 ### Proof of Concept  
 1. Use the script with a CSV of credentials: 
-   credits to Seclist [Download payload](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/default-passwords.csv)
+   credits to Danielmiessler for Seclist [Download payload](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/default-passwords.csv)
    ```bash
    python rtsp_scanner.py 172.18.9#.0/24 --csv default-passwords.csv
    ```  
